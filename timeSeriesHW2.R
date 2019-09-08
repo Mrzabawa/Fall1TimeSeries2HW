@@ -2,8 +2,6 @@ library(tidyverse)
 library(lubridate)
 library(zoo)
 
-setwd('/Users/michaelzabawa/Documents/Fall\ 1\ /Time\ Series\ Class/Non-Team\ Homework/HW1')
-
 rawData <- read.csv("PM_2_5_Raleigh2.csv")
 ####################################################
 rawData$Date <- mdy(rawData$Date)
